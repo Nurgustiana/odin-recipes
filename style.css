@@ -1,4 +1,34 @@
 body {
-    background-color: greenyellow;
+    background-color: lightgray;
     font-family:'Courier New', Courier, monospace;
+}
+
+.lasagna {
+    background-color:salmon;
+    margin:30px;
+    padding: 10px 10px;
+    display:flex;
+    align-items:center;
+}
+
+.ramen {
+    background-color:sandybrown;
+    margin:30px;
+    padding: 10px 10px;
+    display:flex;
+    align-items:center;
+}
+
+.spaghetti {
+    background-color:darkkhaki;
+    margin:30px;
+    padding: 10px 10px;
+    display:flex;
+    align-items:center;
+}
+
+h1, h2, h3, h4 {
+    border:1px black solid;
+    color:green;
+    font-style:bold;
 }
