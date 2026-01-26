@@ -1,35 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color:darkslategray;
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: antiquewhite;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+}
+
 body {
     background-color: lightgray;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
 
-.lasagna {
-    background-color:salmon;
-    margin:30px;
-    padding: 10px 10px;
-    display:flex;
-    align-items:center;
+main {
+    margin-top: 60px;
+    width: 100%;
 }
 
-.ramen {
-    background-color:sandybrown;
-    margin:30px;
-    padding: 10px 10px;
-    display:flex;
-    align-items:center;
+#lasagna, #ramen, #spaghetti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    color: darkslategray
 }
 
-.spaghetti {
-    background-color:darkkhaki;
-    margin:30px;
-    padding: 10px 10px;
-    display:flex;
-    align-items:center;
+a {
+    text-decoration: none;
+    color: darkred;
+    font-style: italic
 }
 
-p, ol, ul {
-    border:1px black solid;
-    color:green;
-    font-style:bold;
-    flex:1;
+.title {
+    font-size: 36px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#lasagna {
+    background-color:azure;
+}
+
+#ramen {
+    background-color: honeydew;
+}
+
+#spaghetti {
+    background-color:khaki;
 }
